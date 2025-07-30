@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+    
 
    <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,6 +31,15 @@
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<!-- Font Awesome CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-p0U2e8uZglrTzTCtI5n+PxvTY2TTXG3FsmbuGdcH4XYDwEPeLj2oS4tAx2+WmHXktHbYydy3fLkYG7hU5w+LwA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
 
 <!-- Title -->
 <title>Atlantic International Refinery & Petrochemicals Ltd | Powering Nigeria’s Energy Future</title>
@@ -221,6 +231,87 @@ https://templatemo.com/tm-545-finance-business
       </div>
     </div>-->
 
+    <!-- Include in your About Us page -->
+<section class="leadership-section">
+  <h2 class="section-title">Meet Our Leadership</h2>
+  <div class="leaders-grid">
+      <div class="leader-card">
+      <div class="image-wrapper">
+        <img src="./assets/images/akindele.jpg" alt="Chairman" />
+        <a href="https://www.linkedin.com/in/drakintoyeakindele" class="linkedin-link" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <div class="info">
+        <h3>Dr. Akintoye Akindele</h3>
+        <p>Chairman</p>
+      </div>
+    </div>
+    
+    <div class="leader-card">
+      <div class="image-wrapper">
+        <img src="./assets/images/Dr.BolaAkindele.jpg" alt="Chairman" />
+        <a href="https://www.linkedin.com/in/drbolaakindele" class="linkedin-link" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <div class="info">
+        <h3>Dr. Bola Akindele</h3>
+        <p>Director</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="image-wrapper">
+        <img src="./assets/images/jani-ibrahim.jpg" alt="Board Member" />
+        <a href="https://www.linkedin.com/in/janiibrahim" class="linkedin-link" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <div class="info">
+        <h3>Alhaji Jani Ibrahim</h3>
+        <p>Director</p>
+      </div>
+    </div>
+
+    <div class="leader-card">
+      <div class="image-wrapper">
+        <img src="./assets/images/Adaeze-Anyibama.jpg" alt="Board Member" />
+        <a href="https://www.linkedin.com/in/adaezeanyibama" class="linkedin-link" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <div class="info">
+        <h3>Adaeze Anyibama</h3>
+        <p>Director</p>
+      </div>
+    </div>
+
+    <!-- Add more cards here -->
+    
+  </div>
+</section>
+<section class="partners-section">
+  <h2 class="section-title">Our Strategic Partners</h2>
+  <div class="logo-slider">
+    <div class="logo-track">
+      <!-- Repeat each logo twice for seamless loop -->
+      <img src="./assets/images/imgi_53_Nigerian-Petroleum-Development-Company.webp" alt="NPDC" />
+      <img src="./assets/images/imgi_48_NTRjMzI3N2YtNGYzMS00M2UzLWI3NTItNjgwYTE2YjRhNjY3_4894f38efaa1fd099b3484eab468bf093533e8b4268c6903299082e1eee737341536581275 (1).png" alt="Mocoh Oil" />
+      <img src="./assets/images/imgi_64_Huawei-Logo-2006.png  " alt="Huawei" />
+      <img src="./assets/images/imgi_47_e354.webp" alt="Divcon Engineering" />
+
+     <img src="./assets/images/imgi_53_Nigerian-Petroleum-Development-Company.webp" alt="NPDC" />
+      <img src="./assets/images/imgi_48_NTRjMzI3N2YtNGYzMS00M2UzLWI3NTItNjgwYTE2YjRhNjY3_4894f38efaa1fd099b3484eab468bf093533e8b4268c6903299082e1eee737341536581275 (1).png" alt="Mocoh Oil" />
+      <img src="./assets/images/imgi_64_Huawei-Logo-2006.png  " alt="Huawei" />
+      <img src="./assets/images/imgi_47_e354.webp" alt="Divcon Engineering" />
+    </div>
+  </div>
+</section>
+
+
+
+
     <div class="fun-facts">
   <div class="container">
     <div class="row">
@@ -359,6 +450,19 @@ https://templatemo.com/tm-545-finance-business
           }
       }
     </script>
+    <script>
+  const slider = document.querySelector('.logo-track');
+  const section = document.querySelector('.logo-slider');
+
+  section.addEventListener('mouseenter', () => {
+    slider.style.animationPlayState = 'paused';
+  });
+
+  section.addEventListener('mouseleave', () => {
+    slider.style.animationPlayState = 'running';
+  });
+</script>
+
 
   </body>
 </html>

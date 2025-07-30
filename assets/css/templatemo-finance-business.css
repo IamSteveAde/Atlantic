@@ -409,14 +409,37 @@ header .navbar {
 .Modern-Slider .item-1 .img-fill {
 	background-image: url(../images/backimg.png);
 }
-
-.Modern-Slider .item-2 .img-fill {
+.Modern-Slider .item-3 .img-fill {
 	background-image: url(../images/jettycompile.png);
 }
-
-.Modern-Slider .item-3 .img-fill {
+.Modern-Slider .item-4 .img-fill {
+	background-image: url(../images/coupling-of-pipes.jpg);
+}
+.Modern-Slider .item-5 .img-fill {
+	background-image: url(../images/imgi_87_sunset-sky-powers-wind-solar-energy-generated-by-ai_188544-26193\ \(1\).webp);
+}
+.Modern-Slider .item-6 .img-fill {
+	background-image: url(../images/imgi_18_refinery-illuminates-dusk-with-fuel-storage-tanks-generated-by-ai_188544-40141.webp);
+}
+.Modern-Slider .item-7 .img-fill {
+	background-image: url(../images/Jetty1.jpg);
+}
+.Modern-Slider .item-8 .img-fill {
+	background-image: url(../images/imgi_89_aerial-view-gas-oil-refinery-oil-industry_335224-1376.webp);
+}
+.Modern-Slider .item-9 .img-fill {
+	background-image: url(../images/accomodation.jpg);
+}
+.Modern-Slider .item-10 .img-fill {
 	background-image: url(../images/sat.jpg);
 }
+.Modern-Slider .item-2 .img-fill {
+	background-image: url(../images/crudeoilrefinery.jpg);
+}
+.Modern-Slider .item-11 .img-fill {
+	background-image: url(../images/data\ centre.jpg);
+}
+
 
 .Modern-Slider .NextArrow{
   position:absolute;
@@ -1578,4 +1601,202 @@ footer .contact-form button.filled-button:hover {
 .cta-gallery-btn:hover {
   background-color: #222;
   color: #fff;
+}
+/* CSS Styling */
+.leadership-section {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #002a48;
+  font-weight: 600;
+}
+
+.leaders-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 0 40px;
+}
+
+.leader-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leader-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.leader-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  color: #002a48;
+  margin: 0;
+}
+
+.info p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 8px;
+}
+/* FontAwesome needed for LinkedIn icon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.leadership-section {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #002a48;
+  font-weight: 600;
+}
+
+.leaders-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  padding: 0 40px;
+}
+
+.leader-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.leader-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 320px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.linkedin-link {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-wrapper:hover .linkedin-link {
+  opacity: 1;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  color: #002a48;
+  margin: 0;
+}
+
+.info p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 8px;
+}
+.partners-section {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #002a48;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.logo-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo-track {
+  display: flex;
+  width: calc(250px * 10); /* 10 logos */
+  animation: scroll 30s linear infinite;
+}
+
+.logo-track img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  margin: 0 30px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.logo-track img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logo-track img {
+    width: 140px;
+    height: 70px;
+    margin: 0 20px;
+  }
 }
